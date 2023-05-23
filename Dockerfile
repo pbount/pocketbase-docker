@@ -1,6 +1,6 @@
 FROM alpine:3.16.0
 
-ARG POCKETBASE_VERSION=0.11.4
+ARG POCKETBASE_VERSION=0.16.1
 
 RUN apk update && apk add curl wget unzip
 RUN addgroup -S pocketbase && adduser -S pocketbase -G pocketbase
